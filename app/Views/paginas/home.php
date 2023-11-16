@@ -43,6 +43,7 @@
 
     .card-text {
         font-size: 14px;
+        text-align: justify;
     }
 </style>
 </head>

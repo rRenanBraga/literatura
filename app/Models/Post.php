@@ -54,8 +54,7 @@ class Post
 
 
     public function lerCarrosel(){
-        $this->db->query("SELECT * FROM obra
-        ORDER BY obra_ano_publicado DESC LIMIT 3;");
+        $this->db->query("CALL ObterObras(3);");
 
         return $this->db->resultados();
     }
