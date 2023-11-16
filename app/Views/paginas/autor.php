@@ -61,12 +61,12 @@
 
                                 <div class="overlay">
                                     <div class="text autor-nome">
-                                        <a class="autor-link" data-descricao="<?= $post->auto_bibliografia ?>"  data-imagem="<?= URL ?>/public/img/<?= $post->auto_imagem ?>">
+                                        <a class="autor-link" data-descricao="<?= $post->auto_bibliografia ?>" data-imagem="<?= URL ?>/public/img/<?= $post->auto_imagem ?>">
                                             <?= $post->auto_nome ?>
                                         </a>
                                     </div>
                                     <div class="text poin-nome">
-                                        <a class="povo-link" poin-descricao="<?= $post->poin_descricao ?>"  poin-localidade="<?= $post->poin_localidade ?>" poin-imagem="<?= URL ?>/public/img/<?= $post->poin_imagem ?>">
+                                        <a class="povo-link" poin-descricao="<?= $post->poin_descricao ?>" poin-imagem="<?= URL ?>/public/img/<?= $post->poin_imagem ?>">
                                             <?= $post->poin_nome ?>
                                         </a>
                                     </div>
@@ -89,7 +89,6 @@
             <div class="modal-body">
                 <img id="modalImage" class="img-fluid" alt="Imagem do Autor">
                 <p id="modalDescricao"></p>
-                <p id="modalLocalidade"></p>
             </div>
         </div>
     </div>

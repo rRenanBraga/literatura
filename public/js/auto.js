@@ -22,13 +22,11 @@ document.addEventListener('DOMContentLoaded', function () {
         link.addEventListener('click', function (e) {
             e.preventDefault();
             var descricao = link.getAttribute('poin-descricao');
-            var descricao = link.getAttribute('poin-localidade');
             var imagem = link.getAttribute('poin-imagem');
 
             // Atualizar o conteúdo do modal com as informações do povo indígena
             $('#modalImage').attr('src', imagem);
             $('#modalDescricao').text(descricao);
-            $('#modalLocalidade').text(localidade);
 
             // Exibir o modal
             $('#myModal').modal('show');
