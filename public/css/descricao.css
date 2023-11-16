@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container-descricao {
+    width: 75%; /* Reduz o tamanho em 35% */
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adiciona bordas arredondadas ao contêiner externo */
+}
+
+.book-info {
+    display: flex;
+    align-items: center;
+}
+
+.book-image {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+}
+
+.book-details {
+    flex-grow: 1;
+    padding: 25px;
+
+}
+
+.livro-detalhes h2 {
+    font-size: 24px;
+    font-size: 1.5em; /* Ajuste o tamanho do texto conforme necessário */
+     margin-bottom: 10px;
+}
+
+.livro-detalhes p {
+    font-size: 16px;
+}
+
+.book-description-container {
+    text-align: justify; /* Alinha a descrição à esquerda */
+    padding: 20px;
+    background-color: #ff6961; /* Cor de fundo para destacar */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Sombreamento */
+    margin-top: 20px;
+}
+
+.book-description h3 {
+    font-weight: bold; /* Texto em negrito */
+}
+
+.book-description {
+    margin: 0; 
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.read-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.read-button:hover {
+    background-color: #77dd77;
+}
+

@@ -1,0 +1,212 @@
+@media (max-width: 2000px) {
+    /* Estilos para telas menores que 768px de largura */
+  
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Elementos empilhados verticalmente */
+    align-items: center; /* Centralizar elementos horizontalmente */
+    justify-content: center; /* Centralizar elementos verticalmente */
+    height: 120vh; /* Altura total da viewport */
+}
+
+.element {
+    width: 300px;
+    height: 200px;
+  background-color: #ffffff; 
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+.element img{
+    width: 250px;
+    height: 250px;
+}
+.content {
+    flex: 1; /* Cresce para ocupar espaço restante */
+    padding: 20px; /* Adiciona espaçamento interno */
+    text-align: center;
+}
+.content p{
+    align-items: center;
+    justify-content: center;
+}
+
+.content h2 {
+    margin-top: 0; 
+    font-family: Cambria;
+
+}
+
+.sobre img{
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+.carousel-container {
+    width: 30%;
+    overflow: hidden;
+    
+  }
+  
+.carousel {
+    display: flex;
+    transition: transform 0.2s ease;
+    margin-bottom: 10px;
+  
+
+  }
+  
+.carousel img {
+  width: 30%;
+  height: 500px;
+ 
+  }
+
+  .destaque-legenda {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    position: relative; /* Adiciona uma posição relativa para o posicionamento das linhas */
+}
+
+.linha {
+    
+    width: 100%;
+    border-top: 1px solid #000000;
+}
+
+
+.texto {
+    padding: 0 15px;
+    color: #000000;
+    
+}
+
+.frase-destaque {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+
+.linha1 {
+    
+  width: 100%;
+  border-top: 1px solid #000000;
+}
+
+
+.texto1 {
+  padding: 0 15px;
+  color: #000000;
+  
+}
+
+.frase-destaque1 {
+font-size: 15px;
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+color: #000000;
+}
+
+.imagem-lateral {
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.conta {
+  position: relative;
+  width: 100%;
+  display:flex;
+  margin-bottom: 10%;
+  max-width: 100%;
+  
+  
+}
+
+.image img{
+  display: block;
+  height: 300px; /* Ajuste a altura conforme necessário */
+  object-fit: cover;
+  width: 100%;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #adc570;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+
+}
+
+.conta:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.subtext {
+  color: white;
+  font-size: 16px; /* Ajuste o tamanho do texto conforme necessário */
+  position: absolute;
+  top: 70%; /* Posição relativa ao contêiner */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-left a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+/* Adicione a seguinte regra para remover a cor azul quando visitado */
+.text-leftnav a:visited {
+  color: inherit;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+/* Adicione a seguinte regra para remover a cor azul quando visitado */
+.nav-list a:visited {
+  color: inherit;
+}
+
+}

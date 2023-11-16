@@ -1,0 +1,42 @@
+.livro-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Ajuste o espaçamento entre os livros conforme necessário */
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.livro img {
+    max-width: 100%;
+    width: 187px;
+    height: 269px;
+    margin-bottom: 20px;
+}
+
+.livro-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.livro-autor {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.modal-body p{
+    text-align: justify;
+}
